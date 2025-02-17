@@ -2,6 +2,10 @@ variable "account_name" {
   description = "Account name (slug)"
 }
 
+variable "account_alias" {
+  description = "Account Alias for AWS"
+}
+
 variable "org_name" {
   description = "Name for this organization (slug)"
 }
